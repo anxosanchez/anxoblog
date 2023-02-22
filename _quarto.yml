@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "anxoblog"
+  title: "O Blog de Anxo"
   navbar:
     left:
       - href: index.qmd
