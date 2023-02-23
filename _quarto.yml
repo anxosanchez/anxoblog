@@ -13,7 +13,9 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - listing.qmd
+    right:
+      - href: listing.qmd
+        text: Blog
 
 format:
   html:
