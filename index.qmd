@@ -1,8 +1,4 @@
 ---
-title: "anxoblog"
+title: "University of Vigo Chemical Engineering Blog"
 ---
-
-
-This is the Blog of Chemical engineering at the Universwity of Vigo.
-
 
