@@ -2,3 +2,6 @@
 title: "University of Vigo Chemical Engineering Blog"
 ---
 
+<center>
+<img src="anxobloglogo.png" alt="anxobloglogo" width="300"/>
+</center>

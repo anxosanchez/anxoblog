@@ -4,15 +4,28 @@ project:
 
 website:
   title: "Anxo Sánchez"
-  twitter-card: true
+  favicon: anxoblogiconlogo.bmp
+  twitter-card:
+    creator: "@dragsonstyle"
+    site: "@rstudio"
   site-url: https://anxosanchez.github.io/anxoblog/
-
+  cookie-consent: false
+  #body-header: | 
+  #  This page brought to you by <https://example.com>
+  #margin-header: |
+  #  ![Logo image](/img/logo.png)
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
+      - text: Asignaturas
+        menu:
+          - EQI1.qmd
+          - EQI2.qmd
+          - SOPQ.qmd
+          - IQMPP.qmd
     right:
       - href: listing.qmd
         text: Blog
