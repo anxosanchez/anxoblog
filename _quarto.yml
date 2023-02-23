@@ -5,6 +5,7 @@ project:
 website:
   title: "Anxo Sánchez"
   twitter-card: true
+  site-url: https://anxosanchez.github.io/anxoblog/
 
   navbar:
     left:
