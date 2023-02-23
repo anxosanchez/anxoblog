@@ -14,7 +14,7 @@ website:
     left: "Copyright 2023, Anxo Sánchez"
     right:
       - icon: github
-        href: https://anxosanchez.github.io/anxoblog/
+        href: https://github.com/anxosanchez
       - icon: twitter
         href: https://twitter.com/anxosanchez
       - icon: linkedin
