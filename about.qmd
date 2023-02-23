@@ -1,34 +1,34 @@
 ---
-title: "About"
+title: "Anxo Sánchez"
 about:
   template: jolla
   image: Anxo.jpg
-  #image-width
-  #image-shape; rectangle,rounded,round
   links:
     - icon: twitter
       text: twitter
-      href: https://twitter.com/anxosanchez
+      href: https://twitter.com
     - icon: github
       text: Github
-      href: https://github.com/anxosanchez
-    #3- icon: Youtube
-    #  text: Youtube
-    #  href: https://www.youtube.com/@anxosanchez6428/featured
-
-
+      href: https://github.com
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/@anxosanchez6428/featured
 ---
 
-Education
+Anxo Sánchez: I'm a Full Professor at the **University of Vigo Chemical Engineering Department**. 
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+## Education
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+University of Vigo:
+- Industrial Engineering School:
+    - Campus Universitario Lagoas-Marcosende, 9 36310 Vigo (SPAIN)
+- Forestry Engineering School
+    - Campus Universitario Pontevedra
 
-Experience
+## Research
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Spet 2012 - April 2018
+My Research Fields are:
+- Biomass Energy
+- Hydrogen Technologies
+- Sustainable Chemical Processes Design and Simulation, specially 
+    - Green Solvents

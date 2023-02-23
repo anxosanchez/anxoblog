@@ -3,15 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "O Blog de Anxo"
+  title: "Anxo Sánchez"
+  twitter-card: true
+
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
         text: About
-      - href: listing.qmd
-        text: Blog
+      - listing.qmd
 
 format:
   html:
