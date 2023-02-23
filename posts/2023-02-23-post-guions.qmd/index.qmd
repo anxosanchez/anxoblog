@@ -1,0 +1,18 @@
+---
+title: "Welcome to my Blog"
+description: "I hope you enjoy and collaborate..."
+author:
+  - name: Anxo Sánchez
+    url: https://anxosanchez.github.io/anxoblog
+    orcid: 0000-0002-9757-1752
+    affiliation: Full Professor @ University of Vigo
+    affiliation-url: https://ucsb-meds.github.io/ 
+date: 2023-02-23
+categories: [Jupyter, Quarto] # self-defined categories
+# citation: 
+  # url: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ 
+image: Anxo.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+[To knom more about me ...](){index.qmd}

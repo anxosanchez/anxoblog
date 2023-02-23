@@ -10,6 +10,15 @@ website:
     site: "@rstudio"
   site-url: https://anxosanchez.github.io/anxoblog/
   cookie-consent: false
+  page-footer: 
+    left: "Copyright 2023, Anxo Sánchez"
+    right:
+      - icon: github
+        href: https://anxosanchez.github.io/anxoblog/
+      - icon: twitter
+        href: https://twitter.com/anxosanchez
+      - icon: linkedin
+        href: https://www.linkedin.com/in/anxo-s%C3%A1nchez-berm%C3%BAdez-79086321/  
   #body-header: | 
   #  This page brought to you by <https://example.com>
   #margin-header: |
