@@ -1,0 +1,16 @@
+---
+title: "Blog"
+listing:
+    contents:
+    - posts
+    type: grid # default,table,grid
+    sort: "date" # "title desc"
+    categories: true
+    feed: true
+    sort-ui: true
+    filter-ui: false
+page-layout: full
+itle-block-banner: true
+website:
+  #site-url: "https://github.io/anxosanchez/anxoblog"
+---

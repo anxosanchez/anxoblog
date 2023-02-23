@@ -2,5 +2,7 @@
 title: "anxoblog"
 ---
 
-This is a Quarto website.
+
+This is the Blog of Chemical engineering at the Universwity of Vigo.
+
 
