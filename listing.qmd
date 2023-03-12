@@ -10,7 +10,7 @@ listing:
     sort-ui: true
     filter-ui: false
 page-layout: full
-itle-block-banner: true
+title-block-banner: true
 website:
   #site-url: "https://github.io/anxosanchez/anxoblog"
 ---
