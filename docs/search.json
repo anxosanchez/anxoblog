@@ -32,7 +32,21 @@
     "href": "eqi2/2023-02-23-E01/index.html",
     "title": "Finding roots in python",
     "section": "",
-    "text": "To knom more about me …{index.qmd}"
+    "text": "A temperature scale that never became popular was that proposed by the Austrian chemist Johan Sebastián Farbunglet. The reference points for that scale were 0 °FB (4 °C), the temperature below which he began to sneeze when chilled, and 1000 °FB (98°C), the temperature at which beer (which was his favorite drink) would boil.\n\nObtain an expression for converting from Celsius degrees to Farbunglet degrees and another expression for converting from Farbunglet degrees to Rankine degrees.\nWhat is the temperature range of 10°FB in Celsius, Kelvin, Fahrenheit, and Rankine?.\nMake a spreadsheet that does the conversions in section 1.\nProgram a function in Python that does the same thing."
+  },
+  {
+    "objectID": "eqi2/2023-02-23-E01/index.html#solution",
+    "href": "eqi2/2023-02-23-E01/index.html#solution",
+    "title": "Finding roots in python",
+    "section": "Solution",
+    "text": "Solution\nIn the next figure, we can observe the relationships among popular scales of temperature (more scales al this link). Relatins among temperature scales are straight lines (see figure), so change for one escale to other is quiete easy.\n\n\n\nGraphical representation of different scales of temprature"
+  },
+  {
+    "objectID": "eqi2/2023-02-23-E01/index.html#example",
+    "href": "eqi2/2023-02-23-E01/index.html#example",
+    "title": "Finding roots in python",
+    "section": "Example",
+    "text": "Example\nRelation of Celsius scale with others:\n\n\n\n\nfrom Celsius\nto Celsius\n\n\n\n\nKelvin\nx °C ≘ (x+273.15) K\nx K ≘ (x−273.15) °C\n\n\nFahrenheit\nx °C ≘ (x·9/5+32) °F\nx °F ≘ (x−32)·5/9 °C\n\n\nRankine\nx °C ≘ (x+273.15)·9/5 °R\nx °R ≘ (x−491.67)·5/9 °C\n\n\n\nSo, to transform degrees Celsious to degrees Farbunglet and viceversa:\n\\[\n( x ºFB - 4 ) * 98 / 1000 = ( x ºC ) / 100\n\\]\n\n\n\n\nfrom Celsius\nto Celsius\n\n\n\n\nFarbunglet\nx °C ≘ x·10 + 4 °FB\nx °FB ≘ (x−491.67)·10 °C"
   },
   {
     "objectID": "eqi2.html",

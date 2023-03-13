@@ -19,16 +19,83 @@
 
 
 
-<p><a href="">To knom more about me …</a>{index.qmd}</p>
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
+<p>A temperature scale that never became popular was that proposed by the Austrian chemist <strong>Johan Sebastián Farbunglet</strong>. The reference points for that scale were 0 °FB (4 °C), the temperature below which he began to sneeze when chilled, and 1000 °FB (98°C), the temperature at which beer (which was his favorite drink) would boil.</p>
+<ol type="1">
+<li>Obtain an expression for converting from Celsius degrees to Farbunglet degrees and another expression for converting from Farbunglet degrees to Rankine degrees.</li>
+<li>What is the temperature range of 10°FB in Celsius, Kelvin, Fahrenheit, and Rankine?.</li>
+<li>Make a spreadsheet that does the conversions in section 1.</li>
+<li>Program a function in Python that does the same thing.</li>
+</ol>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>In the next figure, we can observe the relationships among popular scales of temperature (more scales al <a href="https://en.wikipedia.org/wiki/Scale_of_temperature#">this link</a>). Relatins among temperature scales are straight lines (see figure), so change for one escale to other is quiete easy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/https:/upload.wikimedia.org/wikipedia/commons/thumb/7/78/Comparison_of_temperature_scales_blank.svg/1024px-Comparison_of_temperature_scales_blank.svg.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Graphical representation of different scales of temprature</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<p>Relation of Celsius scale with others:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">from <strong>Celsius</strong></th>
+<th style="text-align: center;">to <strong>Celsius</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Kelvin</td>
+<td style="text-align: center;">x °C ≘ (x+273.15) K</td>
+<td style="text-align: center;">x K ≘ (x−273.15) °C</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fahrenheit</td>
+<td style="text-align: center;">x °C ≘ (x·9/5+32) °F</td>
+<td style="text-align: center;">x °F ≘ (x−32)·5/9 °C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rankine</td>
+<td style="text-align: center;">x °C ≘ (x+273.15)·9/5 °R</td>
+<td style="text-align: center;">x °R ≘ (x−491.67)·5/9 °C</td>
+</tr>
+</tbody>
+</table>
+<p>So, to transform degrees Celsious to degrees Farbunglet and viceversa:</p>
+<p><img src="https://latex.codecogs.com/png.latex?%0A(%20x%20%C2%BAFB%20-%204%20)%20*%2098%20/%201000%20=%20(%20x%20%C2%BAC%20)%20/%20100%0A"></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">from <strong>Celsius</strong></th>
+<th style="text-align: center;">to <strong>Celsius</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Farbunglet</td>
+<td style="text-align: center;">x °C ≘ x·10 + 4 °FB</td>
+<td style="text-align: center;">x °FB ≘ (x−491.67)·10 °C</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 
  ]]></description>
   <category>Jupyter</category>
   <category>Quarto</category>
   <guid>https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/index.html</guid>
   <pubDate>Wed, 22 Feb 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/Anxo.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/Temperature-scales-comparison.png" medium="image" type="image/png" height="73" width="144"/>
 </item>
 </channel>
 </rss>

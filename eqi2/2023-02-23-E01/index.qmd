@@ -11,8 +11,41 @@ date: 2023-02-23
 categories: [Jupyter, Quarto] # self-defined categories
 # citation: 
   # url: https://samanthacsik.github.io/posts/2022-10-24-quarto-blogs/ 
-image: Anxo.jpg
+image: Temperature-scales-comparison.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 ---
 
-[To knom more about me ...](){index.qmd}
+## Problem Statement
+A temperature scale that never became popular was that proposed by the Austrian chemist **Johan Sebastián Farbunglet**. The reference points for that scale were 0 °FB (4 °C), the temperature below which he began to sneeze when chilled, and 1000 °FB (98°C), the temperature at which beer (which was his favorite drink) would boil.
+
+1. Obtain an expression for converting from Celsius degrees to Farbunglet degrees and another expression for converting from Farbunglet degrees to Rankine degrees.
+2. What is the temperature range of 10°FB in Celsius, Kelvin, Fahrenheit, and Rankine?.
+3. Make a spreadsheet that does the conversions in section 1.
+4. Program a function in Python that does the same thing.
+
+## Solution
+
+In the next figure, we can observe the relationships among popular scales of temperature (more scales al [this link](https://en.wikipedia.org/wiki/Scale_of_temperature#)). Relatins among temperature scales are straight lines (see figure), so change for one escale to other is quiete easy.
+
+![Graphical representation of different scales of temprature](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Comparison_of_temperature_scales_blank.svg/1024px-Comparison_of_temperature_scales_blank.svg.png)
+
+## Example
+
+Relation of Celsius scale with others:
+
+|  | from **Celsius** | to **Celsius** |
+| :--------- | :--------:| :-------: |
+| Kelvin     | x °C ≘ (x+273.15) K | x K ≘ (x−273.15) °C |
+| Fahrenheit | x °C ≘ (x·9/5+32) °F | x °F ≘ (x−32)·5/9 °C |
+| Rankine    | x °C ≘ (x+273.15)·9/5 °R| x °R ≘ (x−491.67)·5/9 °C |
+
+So, to transform degrees Celsious to degrees Farbunglet and viceversa:
+  
+$$
+( x ºFB - 4 ) * 98 / 1000 = ( x ºC ) / 100 
+$$
+  
+|  | from **Celsius** | to **Celsius** |
+| :--------- | :------:| :-----: |
+| Farbunglet | x °C ≘ x·10 + 4 °FB | x °FB ≘ (x−491.67)·10 °C |
+

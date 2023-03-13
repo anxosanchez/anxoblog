@@ -64,13 +64,16 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 <meta name="twitter:title" content="Anxo Sánchez - Finding roots in python">
-<meta name="twitter:description" content="To knom more about me …{index.qmd}">
-<meta name="twitter:image" content="https://anxosanchez.github.io/anxoblog/eqi2\2023-02-23-E01\Anxo.jpg">
+<meta name="twitter:description" content="A temperature scale that never became popular was that proposed by the Austrian chemist Johan Sebastián Farbunglet.">
+<meta name="twitter:image" content="https://anxosanchez.github.io/anxoblog/eqi2\2023-02-23-E01\Temperature-scales-comparison.png">
 <meta name="twitter:creator" content="@dragsonstyle">
 <meta name="twitter:site" content="@rstudio">
+<meta name="twitter:image-height" content="324">
+<meta name="twitter:image-width" content="640">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -141,7 +144,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link active" data-scroll-target="#problem-statement">Problem Statement</a></li>
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution">Solution</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -188,9 +199,78 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><a href="">To knom more about me …</a>{index.qmd}</p>
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
+<p>A temperature scale that never became popular was that proposed by the Austrian chemist <strong>Johan Sebastián Farbunglet</strong>. The reference points for that scale were 0 °FB (4 °C), the temperature below which he began to sneeze when chilled, and 1000 °FB (98°C), the temperature at which beer (which was his favorite drink) would boil.</p>
+<ol type="1">
+<li>Obtain an expression for converting from Celsius degrees to Farbunglet degrees and another expression for converting from Farbunglet degrees to Rankine degrees.</li>
+<li>What is the temperature range of 10°FB in Celsius, Kelvin, Fahrenheit, and Rankine?.</li>
+<li>Make a spreadsheet that does the conversions in section 1.</li>
+<li>Program a function in Python that does the same thing.</li>
+</ol>
+</section>
+<section id="solution" class="level2">
+<h2 class="anchored" data-anchor-id="solution">Solution</h2>
+<p>In the next figure, we can observe the relationships among popular scales of temperature (more scales al <a href="https://en.wikipedia.org/wiki/Scale_of_temperature#">this link</a>). Relatins among temperature scales are straight lines (see figure), so change for one escale to other is quiete easy.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Comparison_of_temperature_scales_blank.svg/1024px-Comparison_of_temperature_scales_blank.svg.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Graphical representation of different scales of temprature</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<p>Relation of Celsius scale with others:</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">from <strong>Celsius</strong></th>
+<th style="text-align: center;">to <strong>Celsius</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Kelvin</td>
+<td style="text-align: center;">x °C ≘ (x+273.15) K</td>
+<td style="text-align: center;">x K ≘ (x−273.15) °C</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fahrenheit</td>
+<td style="text-align: center;">x °C ≘ (x·9/5+32) °F</td>
+<td style="text-align: center;">x °F ≘ (x−32)·5/9 °C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Rankine</td>
+<td style="text-align: center;">x °C ≘ (x+273.15)·9/5 °R</td>
+<td style="text-align: center;">x °R ≘ (x−491.67)·5/9 °C</td>
+</tr>
+</tbody>
+</table>
+<p>So, to transform degrees Celsious to degrees Farbunglet and viceversa:</p>
+<p><span class="math display">\[
+( x ºFB - 4 ) * 98 / 1000 = ( x ºC ) / 100
+\]</span></p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: center;">from <strong>Celsius</strong></th>
+<th style="text-align: center;">to <strong>Celsius</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Farbunglet</td>
+<td style="text-align: center;">x °C ≘ x·10 + 4 °FB</td>
+<td style="text-align: center;">x °FB ≘ (x−491.67)·10 °C</td>
+</tr>
+</tbody>
+</table>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
