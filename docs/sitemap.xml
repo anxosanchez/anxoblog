@@ -2,18 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://anxosanchez.github.io/anxoblog/about.html</loc>
-    <lastmod>2023-02-23T16:48:46.346Z</lastmod>
+    <lastmod>2023-03-13T17:38:40.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anxosanchez.github.io/anxoblog/eqi1.html</loc>
+    <lastmod>2023-03-13T17:38:41.895Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/index.html</loc>
+    <lastmod>2023-03-13T17:38:42.991Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anxosanchez.github.io/anxoblog/eqi2.html</loc>
+    <lastmod>2023-03-13T17:40:20.837Z</lastmod>
   </url>
   <url>
     <loc>https://anxosanchez.github.io/anxoblog/index.html</loc>
-    <lastmod>2023-03-09T11:21:42.697Z</lastmod>
+    <lastmod>2023-03-13T17:38:45.057Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anxosanchez.github.io/anxoblog/iqmpp.html</loc>
+    <lastmod>2023-03-13T17:40:17.729Z</lastmod>
   </url>
   <url>
     <loc>https://anxosanchez.github.io/anxoblog/listing.html</loc>
-    <lastmod>2023-03-09T11:21:35.854Z</lastmod>
+    <lastmod>2023-03-13T17:38:46.520Z</lastmod>
   </url>
   <url>
     <loc>https://anxosanchez.github.io/anxoblog/posts/2023-02-23-post-guions.qmd/index.html</loc>
-    <lastmod>2023-03-09T11:20:33.105Z</lastmod>
+    <lastmod>2023-03-13T17:38:47.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://anxosanchez.github.io/anxoblog/sopq.html</loc>
+    <lastmod>2023-03-13T17:38:48.674Z</lastmod>
   </url>
 </urlset>

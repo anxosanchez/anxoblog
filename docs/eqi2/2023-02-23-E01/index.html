@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Anxo Sánchez">
+<meta name="dcterms.date" content="2023-02-23">
 
-<title>Anxo Sánchez – quarto-input8bfa07c7</title>
+<title>Anxo Sánchez - Finding roots in python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="/anxoblog/site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="/anxoblog/site_libs/quarto-nav/headroom.min.js"></script>
-<script src="/anxoblog/site_libs/clipboard/clipboard.min.js"></script>
-<script src="/anxoblog/site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="/anxoblog/site_libs/quarto-search/fuse.min.js"></script>
-<script src="/anxoblog/site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="/anxoblog/">
-<link href="/anxoblog/./anxoblogiconlogo.bmp" rel="icon">
-<script src="/anxoblog/site_libs/quarto-html/quarto.js"></script>
-<script src="/anxoblog/site_libs/quarto-html/popper.min.js"></script>
-<script src="/anxoblog/site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="/anxoblog/site_libs/quarto-html/anchor.min.js"></script>
-<link href="/anxoblog/site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="/anxoblog/site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="/anxoblog/site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="/anxoblog/site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="/anxoblog/site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="/anxoblog/site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="/anxoblog/site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../anxoblogiconlogo.bmp" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,7 +65,13 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="/anxoblog/styles.css">
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Anxo Sánchez - Finding roots in python">
+<meta name="twitter:description" content="To knom more about me …{index.qmd}">
+<meta name="twitter:image" content="https://anxosanchez.github.io/anxoblog/eqi2\2023-02-23-E01\Anxo.jpg">
+<meta name="twitter:creator" content="@dragsonstyle">
+<meta name="twitter:site" content="@rstudio">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -73,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="/anxoblog/index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Anxo Sánchez</span>
     </a>
   </div>
@@ -83,11 +91,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/anxoblog/index.html">
+    <a class="nav-link" href="../../index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/anxoblog/about.html">
+    <a class="nav-link" href="../../about.html">
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -96,19 +104,19 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-asignaturas">    
         <li>
-    <a class="dropdown-item" href="/anxoblog/eqi1.html">
+    <a class="dropdown-item" href="../../eqi1.html">
  <span class="dropdown-text">Experimentación en Química Industrial I</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/anxoblog/eqi2.html">
+    <a class="dropdown-item" href="../../eqi2.html">
  <span class="dropdown-text">Experimentación en Química Industrial II</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/anxoblog/sopq.html">
+    <a class="dropdown-item" href="../../sopq.html">
  <span class="dropdown-text"><strong>E</strong>xperimentación en <strong>Q</strong>uímica <strong>I</strong>ndstrial <strong>II</strong></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/anxoblog/iqmpp.html">
+    <a class="dropdown-item" href="../../iqmpp.html">
  <span class="dropdown-text">Indstrias Químicas da Madeira e a Pasta de Papel</span></a>
   </li>  
     </ul>
@@ -116,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/anxoblog/listing.html">
+    <a class="nav-link" href="../../listing.html">
  <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -133,40 +141,54 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#oops" id="toc-oops" class="nav-link active" data-scroll-target="#oops">Oops!</a>
-  <ul class="collapse">
-  <li><a href="#page-not-found" id="toc-page-not-found" class="nav-link" data-scroll-target="#page-not-found">404 PAGE NOT FOUND</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Finding roots in python</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Jupyter</div>
+    <div class="quarto-category">Quarto</div>
+  </div>
+  </div>
 
 
-<hr>
-<p>Title: ” Page Not Found ”</p>
-<hr>
-<center>
-<section id="oops" class="level1">
-<h1>Oops!</h1>
-<section id="page-not-found" class="level2">
-<h2 class="anchored" data-anchor-id="page-not-found">404 PAGE NOT FOUND</h2>
-<p>The page your are looking for might have benen removed, have its name changed or is tmporarily unavailable.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="/anxoblog/anxoblogiconlogo.bmp" class="img-fluid figure-img" width="200"></p>
-<p></p><figcaption class="figure-caption">index.qmd</figcaption><p></p>
-</figure>
-</div>
-</section></section></center>
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <a href="https://anxosanchez.github.io/anxoblog">Anxo Sánchez</a> <a href="https://orcid.org/0000-0002-9757-1752" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
+  </div>
+    <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ucsb-meds.github.io/">
+            Full Professor @ University of Vigo
+            </a>
+          </p>
+      </div>
+    </div>
 
+<div class="quarto-title-meta">
 
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 23, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p><a href="">To knom more about me …</a>{index.qmd}</p>
 
 
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Anxo Sánchez</title>
+<link>https://anxosanchez.github.io/anxoblog/eqi2.html</link>
+<atom:link href="https://anxosanchez.github.io/anxoblog/eqi2.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.335</generator>
+<lastBuildDate>Wed, 22 Feb 2023 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Finding roots in python</title>
+  <dc:creator>Anxo Sánchez</dc:creator>
+  <link>https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><a href="">To knom more about me …</a>{index.qmd}</p>
+
+
+
+ ]]></description>
+  <category>Jupyter</category>
+  <category>Quarto</category>
+  <guid>https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/index.html</guid>
+  <pubDate>Wed, 22 Feb 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://anxosanchez.github.io/anxoblog/eqi2/2023-02-23-E01/Anxo.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

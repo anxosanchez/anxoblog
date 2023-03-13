@@ -1,0 +1,16 @@
+---
+title: "Experimentación en Química Industrial II"
+listing:
+    contents:
+    - eqi2
+    type: grid # default,table,grid
+    sort: "date" # "title desc"
+    categories: true
+    feed: true
+    sort-ui: true
+    filter-ui: false
+page-layout: full
+title-block-banner: true
+website:
+  #site-url: "https://github.io/anxosanchez/anxoblog"
+---

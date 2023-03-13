@@ -1,8 +1,26 @@
 [
   {
+    "listing": "/eqi1.html",
+    "items": []
+  },
+  {
+    "listing": "/eqi2.html",
+    "items": [
+      "/eqi2/2023-02-23-E01/index.html"
+    ]
+  },
+  {
+    "listing": "/iqmpp.html",
+    "items": []
+  },
+  {
     "listing": "/listing.html",
     "items": [
       "/posts/2023-02-23-post-guions.qmd/index.html"
     ]
+  },
+  {
+    "listing": "/sopq.html",
+    "items": []
   }
 ]

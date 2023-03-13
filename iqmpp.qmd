@@ -1,0 +1,16 @@
+---
+title: "Indstrias Químicas da Madeira e a Pasta de Papel"
+listing:
+    contents:
+    - eqi1
+    type: grid # default,table,grid
+    sort: "date" # "title desc"
+    categories: true
+    feed: true
+    sort-ui: true
+    filter-ui: false
+page-layout: full
+title-block-banner: true
+website:
+  #site-url: "https://github.io/anxosanchez/anxoblog"
+---

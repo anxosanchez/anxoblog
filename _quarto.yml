@@ -31,10 +31,10 @@ website:
         text: About
       - text: Asignaturas
         menu:
-          - EQI1.qmd
-          - EQI2.qmd
-          - SOPQ.qmd
-          - IQMPP.qmd
+          - eqi1.qmd
+          - eqi2.qmd
+          - sopq.qmd
+          - iqmpp.qmd
     right:
       - href: listing.qmd
         text: Blog
