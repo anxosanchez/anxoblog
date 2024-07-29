@@ -1,19 +1,27 @@
 ---
-title: "About"
-image: profile.jpg
+title: "Blog"
+image: Anxo.jpg
 about:
   template: jolla
   links:
     - icon: twitter
-      text: Twitter
-      href: https://twitter.com
+      text: X
+      href: https://x.com/anxosanchez
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/anxo-s%C3%A1nchez-berm%C3%BAdez-79086321/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/anxosanchez
+
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
 
 ---
 
 About this blog
+
