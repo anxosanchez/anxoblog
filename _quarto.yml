@@ -4,10 +4,10 @@ project:
   #   - "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
 
 website:
-  title: "Silvia Canelón"
-  site-url: https://silviacanelon.com
-  description: "Researcher and data educator applying biomedical and spatial data science in ways that prioritize health equity."
-  favicon: assets/silvia/img/logo_rounded.svg
+  title: "Anxo Sánchez Blog"
+  site-url: https://www.anxosanchez.com
+  description: "Researcher and Educator on Chemical Engineering Process Design, Simulation, Optimization and Control."
+  favicon: assets/anxo/img/Anxo.jpeg
   page-navigation: true
   back-to-top-navigation: true
   twitter-card:
@@ -16,7 +16,7 @@ website:
     card-style: summary_large_image
   comments: 
     utterances: 
-      repo: spcanelon/silvia 
+      repo: anxosanchez/anxoblog 
       label: utterances
       theme: body-light
       issue-term: title
